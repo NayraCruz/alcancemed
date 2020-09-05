@@ -62,12 +62,10 @@ html {
 }
 
 
-}
-
 body {
 	font-family: 'Rubik', sans-serif;
 	font-size: 0.875rem;
-	color: #666;
+	color: #202020;
 	background-color: #fafafa;
 	overflow-x: hidden;
 	
@@ -375,70 +373,6 @@ table.table td h2 span {
 	-o-filter: blur(3px);
 	-ms-filter: blur(3px);
 	filter: blur(3px);
-}
-
-p #ana {
-	position: absolute;
-	width: 569px;
-	height: 160px;
-	left: 461px;
-	top: 174px;
-	font-family: Rubik;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-}
-
-p {
-	font-family: Rubik;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 25px;
-	color: #202020;
-}
-
-.btn1,
-.btn2 {
-	display: grid;
-	position: relative;
-	
-	bottom: 0%;
-	width: 480px;
-	height: 50px;
-	padding: 10px;
-	text-align: center;
-	font-size: 20px;
-	font-family: Rubik;
-	font-style: normal;
-	margin: 15px;
-}
-
-.btn1 {
-	background: #106EC7;
-	border-radius: 4px;
-	color: white;
-	
-	
-}
-
-.btn2 {
-	border: 2px solid #106EC7;
-	box-sizing: border-box;
-	border-radius: 4px;
-}
-
-img {
-	position: relative;
-	left: 500px;
-	top: 135px;
-	
-}
-
-#fala {
-	position: relative;
-	right: 500px;
-	max-width: 500px;
-
 }
 
 /*-----------------
@@ -4984,3 +4918,82 @@ blockquote p {
 		margin-bottom: 10px;
 	}
 }
+
+/* 
+	Personalizações do tema aqui abaixo
+*/
+.balao-dialogo {
+	background-color: #0A8070;
+	font-size: 24px;
+}
+.balao-dialogo--azul {
+	background-color: blue;
+	font-size: 24px;
+}
+
+.balao-dialogo p {
+	color: white;
+}
+
+.cabecalho-curadoria {
+	font-weight: bold;
+	font-size: 25px;
+	color: #202020;
+}
+
+.btn1,
+.btn2 {
+	display: grid;
+	position: relative;
+	
+	bottom: 0%;
+	width: 480px;
+	height: 50px;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Rubik;
+	font-style: normal;
+	margin: 15px;
+}
+
+.btn1 {
+	background: #106EC7;
+	border-radius: 4px;
+	color: white;
+	
+	
+}
+
+.btn2 {
+	border: 2px solid #106EC7;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+img {
+	position: relative;
+	left: 500px;
+	top: 135px;
+	
+}
+
+#fala {
+	position: relative;
+	right: 500px;
+	max-width: 500px;
+
+}
+
+/* Esse trecho de código foi comentado, pois não encontrei no HTML. Por enquanto vou deixar aqui */
+/* p #ana {
+	position: absolute;
+	width: 569px;
+	height: 160px;
+	left: 461px;
+	top: 174px;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+} */
