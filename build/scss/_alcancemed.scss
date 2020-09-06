@@ -1,0 +1,94 @@
+/* 
+	Estilos do tema AlcanceMed
+*/
+[vw] [vw-access-button] .access-button {
+    width: 40%;
+    float: right;
+}
+
+body {
+    color: #202020;
+}
+
+.header {
+	background-color: #fafafa;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: #0A8070;
+	text-align: center;
+}
+
+span {
+	color: #202020;
+}
+
+.balao-dialogo {
+	background-color: #0A8070;
+	font-size: 24px;
+}
+.balao-dialogo--azul {
+	background-color: blue;
+	font-size: 24px;
+}
+
+.balao-dialogo p {
+	color: white;
+}
+
+.cabecalho-curadoria {
+	font-weight: bold;
+	font-size: 25px;
+	color: #202020;
+	left: 200px;
+}
+
+.btn1,
+.btn2 {
+    border-radius: 4px;
+	width: 100%;
+	max-width: 480px;
+	height: 50px;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+// .btn:active {  /* AÇÃO AO CLICAR NO BOTÃO */
+// 	box-shadow: 0 0 0 0 #06243f; inset: 5px 5px 5px #06243f;
+// 	transform: translate(5px 5px);
+// }
+
+.btn1 {
+	background: #106EC7;
+    color: white;
+    
+    &:hover {
+        background-color: lighten(#106EC7, 5%);
+    }
+}
+
+.btn2 {
+	border: 2px solid #106EC7;
+    border-radius: 4px;
+    color: #106EC7;
+    
+    &:hover {
+        background-color: lighten(#106EC7, 5%);
+    }
+}
+
+/* img {
+	position: relative;
+	left: 500px;
+	top: 135px;
+} */
+
+#fala {
+	position: relative;
+	right: 500px;
+	max-width: 500px;
+
+}
