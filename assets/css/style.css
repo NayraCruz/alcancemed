@@ -4922,6 +4922,23 @@ blockquote p {
 /* 
 	Personalizações do tema aqui abaixo
 */
+.header {
+	background-color: #fafafa;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: #0A8070;
+	text-align: center;
+	
+	
+}
+
+span {
+	color: #202020;
+}
+
 .balao-dialogo {
 	background-color: #0A8070;
 	font-size: 24px;
@@ -4939,15 +4956,16 @@ blockquote p {
 	font-weight: bold;
 	font-size: 25px;
 	color: #202020;
+	left: 200px;
 }
 
 .btn1,
 .btn2 {
-	display: grid;
 	position: relative;
-	
 	bottom: 0%;
-	width: 480px;
+	display: inline-block;
+	width: 100%;
+	max-width: 480px;
 	height: 50px;
 	padding: 10px;
 	text-align: center;
@@ -4955,6 +4973,14 @@ blockquote p {
 	font-family: Rubik;
 	font-style: normal;
 	margin: 15px;
+	box-shadow: 5px 5px 0 .1px #06243f;
+
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.btn:active {  /* AÇÃO AO CLICAR NO BOTÃO */
+	box-shadow: 0 0 0 0 #06243f; inset: 5px 5px 5px #06243f;
+	transform: translate(5px 5px);
 }
 
 .btn1 {
@@ -4984,16 +5010,3 @@ img {
 	max-width: 500px;
 
 }
-
-/* Esse trecho de código foi comentado, pois não encontrei no HTML. Por enquanto vou deixar aqui */
-/* p #ana {
-	position: absolute;
-	width: 569px;
-	height: 160px;
-	left: 461px;
-	top: 174px;
-	font-family: Rubik;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-} */
