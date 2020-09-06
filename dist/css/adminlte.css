@@ -13911,8 +13911,12 @@ body.text-sm .control-sidebar {
 	Estilos do tema AlcanceMed
 */
 [vw] [vw-access-button] .access-button {
-  width: 27%;
+  width: 40%;
   float: right;
+}
+
+body {
+  color: #202020;
 }
 
 .header {
