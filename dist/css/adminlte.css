@@ -13981,12 +13981,11 @@ span {
   background-color: #127bdf;
 }
 
-img {
-  position: relative;
-  left: 500px;
-  top: 135px;
-}
-
+/* img {
+	position: relative;
+	left: 500px;
+	top: 135px;
+} */
 #fala {
   position: relative;
   right: 500px;
