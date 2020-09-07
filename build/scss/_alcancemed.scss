@@ -448,8 +448,11 @@ legend {
 
 .img-video {
 	overflow-y: hidden;
-	max-height: 512px;
 	position: relative;
+
+	@media (min-width: 992px) {
+		max-height: 512px;
+	}
 	
 	img {
 		width: -webkit-fill-available;
@@ -457,16 +460,17 @@ legend {
 }
 
 .img-mini-video {
-	display: none;
 	right: 15px;
-	position: absolute;
-	width: 100px;
-	height: 100px;
+	width: 100%;
+	height: auto;
 	overflow: hidden;
 	top: 10px;
 
 	@media (min-width: 992px) {
-		display: block;
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		top: 30px;
 	}
 
 	@media (min-width: 1200px) {
@@ -483,6 +487,10 @@ legend {
 
 .img-mini-video--2 {
 	top: 120px;
+
+	@media (min-width: 992px) {
+		top: 120px;
+	}
 
 	@media (min-width: 1200px) {
 		top: 260px;
