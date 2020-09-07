@@ -271,7 +271,8 @@
                     <div class="card-footer">
                       <form action="#" method="post">
                         <div class="input-group">
-                          <input type="text" name="message" placeholder="Escrever Mensagem" class="form-control">
+                          <label for="msg" class="sr-only">Escrever mensagem</label>
+                          <input id="msg" type="text" name="message" placeholder="Escrever Mensagem" class="form-control">
                           <span class="input-group-append">
                             <button type="button" class="btn btn-block btn-primary btn1 btn-global">Enviar<i class="fas fa-paper-plane icone-botao-mensagem"></i>
                             </button>
@@ -283,20 +284,6 @@
                   </div>
                   <!--/.direct-chat -->
                   <!-- /.CARD CHAT -->
-                </div>
-
-                <div class="card">
-                  <div class="card-body">
-                    <h2>
-                      <i class="fas fa-paperclip icone-anexo"></i>
-                    </i>Anexos (2)</h2>
-                  <p>Clique nos links abaixo para baixar seus anexos.</p>
-                  <p>
-                    <i class="far fa-file-pdf icone-pdf"></i>solicitacao-de-exames-pdf</p>
-                  <p>
-                    <i class="far fa-file-pdf icone-pdf"></i>prescricao-medica-pdf</p>
-                  <p>
-                    <i class="far fa-file-pdf icone-pdf"></i>atestado-medico-pdf</p>
                 </div>
               </div>
 
@@ -329,6 +316,20 @@
               </div>
 
               <div class="col-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h2>
+                      <i class="fas fa-paperclip icone-anexo"></i>
+                    </i>Anexos (2)</h2>
+                  <p>Clique nos links abaixo para baixar seus anexos.</p>
+                  <p>
+                    <i class="far fa-file-pdf icone-pdf"></i>solicitacao-de-exames-pdf</p>
+                  <p>
+                    <i class="far fa-file-pdf icone-pdf"></i>prescricao-medica-pdf</p>
+                  <p>
+                    <i class="far fa-file-pdf icone-pdf"></i>atestado-medico-pdf</p>
+                </div>
+
                 <!-- BOTÃO PROSSEGUIR -->
                 <div class="proseguir">
                   <a href="consulta.html" class="btn btn-block btn-primary btn1" data-toggle="modal" data-target="#meuModal">Prosseguir para consulta<i class="fas fa-angle-double-right"></i>
@@ -353,7 +354,7 @@
 
                   <!-- Corpo do modal -->
                   <div class="modal-body">
-                   <a href="/index.html" class="btn btn-block btn-primary btn1 btn-global">Inciar nova consulta</a>
+                    <a href="/index.html" class="btn btn-block btn-primary btn1 btn-global">Inciar nova consulta</a>
                   </div>
 
                   <!-- Rodapé do modal-->
