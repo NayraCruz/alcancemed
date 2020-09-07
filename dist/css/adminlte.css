@@ -14155,6 +14155,10 @@ span {
   }
 }
 
+.balao-dialogo--passo2 {
+  top: 0;
+}
+
 .cabecalho-curadoria {
   font-weight: bold;
   font-size: 24px;
@@ -14267,6 +14271,13 @@ legend {
   }
 }
 
+@media (min-width: 576px) {
+  .l-grid-items--3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 562px;
+  }
+}
+
 .collect-item {
   -ms-flex-line-pack: justify;
   align-content: space-between;
@@ -14340,6 +14351,7 @@ legend {
   display: block;
   -ms-flex: 1 0 100%;
   flex: 1 0 100%;
+  font-size: 32px;
   text-align: center;
 }
 
@@ -14348,6 +14360,8 @@ legend {
   -ms-flex: 1 0 100%;
   flex: 1 0 100%;
   font-size: 64px;
+  text-align: center;
+  margin-bottom: 4px;
 }
 
 .form-group.has-icon {

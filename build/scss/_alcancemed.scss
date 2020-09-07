@@ -229,6 +229,10 @@ span {
 	}
 }
 
+.balao-dialogo--passo2 {
+	top: 0;
+}
+
 .cabecalho-curadoria {
 	font-weight: bold;
 	font-size: 24px;
@@ -343,6 +347,13 @@ legend {
 		margin-right: auto;
     }
 }
+
+.l-grid-items--3 {
+	@media (min-width: 576px) {
+		grid-template-columns: 1fr 1fr 1fr;
+		max-width: 562px;
+	}
+}
  
 .collect-item {
     align-content: space-between;
@@ -408,7 +419,8 @@ legend {
 .collect-item__label {
 	color: #0A4780;
 	display: block;
-    flex: 1 0 100%;
+	flex: 1 0 100%;
+	font-size: 32px;
     text-align: center;
 }
 
@@ -416,4 +428,6 @@ legend {
 	display: block;
 	flex: 1 0 100%;
 	font-size: 64px;
+	text-align: center;
+	margin-bottom: 4px;
 }
