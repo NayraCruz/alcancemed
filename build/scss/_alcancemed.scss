@@ -445,3 +445,12 @@ legend {
 .direct-chat-messages {
 	height: 432px;
 }
+
+.img-video {
+	overflow-y: hidden;
+	max-height: 512px;
+	
+	img {
+		width: -webkit-fill-available;
+	}
+}
