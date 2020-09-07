@@ -1,13 +1,36 @@
 /* 
 	Estilos do tema AlcanceMed
 */
+@import 'https://fonts.googleapis.com/css?family=Rubik:400,500,700';
+
 [vw] [vw-access-button] .access-button {
     width: 40%;
     float: right;
 }
 
 body {
-    color: #202020;
+	color: #202020;
+	font-family: rubik,sans-serif;
+}
+
+.content-wrapper {
+	padding-bottom: 1rem;
+}
+
+a, button, p, span, div {
+	font-family: rubik,sans-serif;
+}
+
+a:focus, button:focus, input:focus, select:focus, .btn:focus, .btn.focus {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+}
+
+a {
+	color: #106EC7;
+
+	&:hover {
+		color: lighten(#106EC7, 3%);
+	}
 }
 
 .header {
@@ -29,14 +52,41 @@ span {
 .balao-dialogo {
 	background-color: #0A8070;
 	font-size: 24px;
-}
-.balao-dialogo--azul {
-	background-color: blue;
-	font-size: 24px;
+	padding: 20px 20px 3px;
 }
 
 .balao-dialogo p {
 	color: white;
+}
+
+// Setinhas do balão de diálogo
+.arrow_box {
+	position: relative;
+	background: #0A8070;
+	border: 1px solid #0A8070;
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(10, 128, 112, 0);
+	border-top-color: #0A8070;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.arrow_box:before {
+	border-color: rgba(10, 128, 112, 0);
+	border-top-color: #0A8070;
+	border-width: 31px;
+	margin-left: -31px;
 }
 
 .cabecalho-curadoria {
@@ -44,6 +94,7 @@ span {
 	font-size: 25px;
 	color: #202020;
 	left: 200px;
+	margin: 15px 0 25px;
 }
 
 .btn1,
@@ -94,7 +145,13 @@ span {
     }
 }
 
+.btn-global {
+	margin: 20px 0;
+}
 
+.icone-curadoria {
+	margin-right: 10px;
+}
 
 #fala {
 	position: relative;

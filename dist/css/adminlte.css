@@ -10,6 +10,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import 'https://fonts.googleapis.com/css?family=Rubik:400,500,700';
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -13917,6 +13918,27 @@ body.text-sm .control-sidebar {
 
 body {
   color: #202020;
+  font-family: rubik,sans-serif;
+}
+
+.content-wrapper {
+  padding-bottom: 1rem;
+}
+
+a, button, p, span, div {
+  font-family: rubik,sans-serif;
+}
+
+a:focus, button:focus, input:focus, select:focus, .btn:focus, .btn.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+a {
+  color: #106EC7;
+}
+
+a:hover {
+  color: #1176d5;
 }
 
 .header {
@@ -13937,15 +13959,42 @@ span {
 .balao-dialogo {
   background-color: #0A8070;
   font-size: 24px;
-}
-
-.balao-dialogo--azul {
-  background-color: blue;
-  font-size: 24px;
+  padding: 20px 20px 3px;
 }
 
 .balao-dialogo p {
   color: white;
+}
+
+.arrow_box {
+  position: relative;
+  background: #0A8070;
+  border: 1px solid #0A8070;
+}
+
+.arrow_box:after, .arrow_box:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(10, 128, 112, 0);
+  border-top-color: #0A8070;
+  border-width: 30px;
+  margin-left: -30px;
+}
+
+.arrow_box:before {
+  border-color: rgba(10, 128, 112, 0);
+  border-top-color: #0A8070;
+  border-width: 31px;
+  margin-left: -31px;
 }
 
 .cabecalho-curadoria {
@@ -13953,10 +14002,24 @@ span {
   font-size: 25px;
   color: #202020;
   left: 200px;
+  margin: 15px 0 25px;
 }
 
 .btn1,
-.btn2 {
+.btn2,
+.btn3,
+.btn4 {
+  border-radius: 4px;
+  width: 100%;
+  max-width: 480px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn5,
+.btn6 {
   border-radius: 4px;
   width: 100%;
   max-width: 480px;
@@ -13985,15 +14048,27 @@ span {
   background-color: #127bdf;
 }
 
-/* img {
-	position: relative;
-	left: 500px;
-	top: 135px;
-} */
+.btn-global {
+  margin: 20px 0;
+}
+
+.icone-curadoria {
+  margin-right: 10px;
+}
+
 #fala {
   position: relative;
   right: 500px;
   max-width: 500px;
+}
+
+legend {
+  font-family: Rubik;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 135%;
+  color: #0A8070;
 }
 
 .form-group.has-icon {
