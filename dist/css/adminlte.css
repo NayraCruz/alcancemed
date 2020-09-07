@@ -14035,7 +14035,11 @@ span {
 
 @media (min-width: 992px) {
   .balao-dialogo {
+    min-height: 197px;
     font-size: 24px;
+    left: -256px;
+    top: 0;
+    width: 644px;
   }
   .balao-dialogo.arrow_box {
     position: absolute;
@@ -14044,6 +14048,7 @@ span {
 
 .balao-dialogo p {
   color: white;
+  line-height: 1.35;
 }
 
 .arrow_box {
@@ -14061,6 +14066,13 @@ span {
   width: 0;
   position: absolute;
   pointer-events: none;
+}
+
+@media (min-width: 992px) {
+  .arrow_box:after, .arrow_box:before {
+    left: auto;
+    right: 18%;
+  }
 }
 
 .arrow_box:after {

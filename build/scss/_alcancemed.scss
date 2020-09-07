@@ -123,16 +123,21 @@ span {
 	top: 0;
 
 	@media (min-width: 992px) {
+		min-height: 197px;
 		font-size: 24px;
+		left: -256px;
+		top: 0;
+		width: 644px;
 
 		&.arrow_box {
 			position: absolute;
 		}
 	}
-}
 
-.balao-dialogo p {
-	color: white;
+	p {
+		color: white;
+		line-height: 1.35;
+	}
 }
 
 // Setinhas do balão de diálogo
@@ -150,6 +155,11 @@ span {
 	width: 0;
 	position: absolute;
 	pointer-events: none;
+
+	@media (min-width: 992px) {
+		left: auto;
+		right: 18%;
+	}
 }
 
 .arrow_box:after {
