@@ -14323,9 +14323,14 @@ legend {
 
 .collect-item__label {
   color: #0A4780;
+  display: block;
   -ms-flex: 1;
   flex: 1;
   text-align: center;
+}
+
+.icone-checkbox {
+  display: block;
 }
 
 .form-group.has-icon {
