@@ -287,6 +287,13 @@ span {
 	max-width: 561px;
 }
 
+.btn-global--icone-direita {
+	.icone-curadoria {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+}
+
 .icone-curadoria {
 	margin-right: 10px;
 }
@@ -306,3 +313,89 @@ legend {
 	line-height: 135%;
 	color: #0A8070;
 }
+
+// Checkbox - botões acessíveis
+.l-grid-items {
+    display: grid;
+    gap: 16px;
+    list-style: none;
+	margin-top: 20px;
+	padding-left: 0;
+}
+@media (min-width: 576px) {
+    .l-grid-items {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 768px) {
+    .l-grid-items {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+ 
+.collect-item {
+    align-content: space-between;
+    align-items: center;
+    background-color: #D9EBFC;
+    border: 2px solid #106EC7;
+	border-radius: 8px;
+	color: #0A4780;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    height: 184px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px;
+    transition: .15s;
+    width: 192px;
+}
+.collect-item:hover, .collect-item:focus, .collect-item.-focused {
+    background-color: darken(#106EC7, 5%);
+	border-color: #F4B740;
+	border-width: 3px;
+	color: white;
+
+	&:hover {
+		border-color: #F4B740;
+	}
+
+	.collect-item__label {
+		color: white;
+	}
+}
+
+.collect-item.-focused {
+    border-color: #F4B740;
+}
+
+.collect-item.-selected {
+    background: #106EC7;
+	border-color: #106EC7;
+	color: white;
+	transition: .15s;
+
+	&:hover, &:focus {
+		border-color: #F4B740 !important;
+	}
+	
+	.collect-item__label {
+		color: white;
+	}
+}
+
+.collect-item__checkbox, .collect-item__img, .collect-item__label {
+    pointer-events: none;
+}
+
+.collect-item__img {
+    flex: 1 1 100%;
+}
+
+.collect-item__label {
+    color: #0A4780;
+    flex: 1;
+    text-align: center;
+}
+
