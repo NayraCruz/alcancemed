@@ -14016,15 +14016,29 @@ span {
   color: #202020;
 }
 
+.atendente-virtual {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .atendente-virtual {
+    padding-top: 185px;
+  }
+}
+
 .balao-dialogo {
   background-color: #0A8070;
   font-size: 20px;
   padding: 20px 20px 3px;
+  top: 0;
 }
 
 @media (min-width: 992px) {
   .balao-dialogo {
     font-size: 24px;
+  }
+  .balao-dialogo.arrow_box {
+    position: absolute;
   }
 }
 

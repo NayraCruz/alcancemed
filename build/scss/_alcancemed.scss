@@ -108,13 +108,26 @@ span {
 	color: #202020;
 }
 
+.atendente-virtual {
+	position: relative;
+
+	@media (min-width: 992px) {
+		padding-top: 185px;
+	}
+}
+
 .balao-dialogo {
 	background-color: #0A8070;
 	font-size: 20px;
 	padding: 20px 20px 3px;
+	top: 0;
 
 	@media (min-width: 992px) {
 		font-size: 24px;
+
+		&.arrow_box {
+			position: absolute;
+		}
 	}
 }
 
