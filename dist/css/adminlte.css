@@ -14143,6 +14143,15 @@ span {
   .balao-dialogo--menor {
     left: 0;
     max-width: 300px;
+    min-height: 100px;
+    top: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .balao-dialogo--menor {
+    left: 100px;
+    top: 0;
   }
 }
 
