@@ -13912,17 +13912,13 @@ body.text-sm .control-sidebar {
 	Estilos do tema AlcanceMed
 */
 [vw] [vw-access-button] .access-button {
-  width: 40%;
+  width: 35% !important;
   float: right;
 }
 
 body {
   color: #202020;
   font-family: rubik,sans-serif;
-}
-
-.content-wrapper {
-  padding-bottom: 1rem;
 }
 
 a, button, p, span, div {
@@ -13939,6 +13935,54 @@ a {
 
 a:hover {
   color: #1176d5;
+  text-decoration: underline;
+}
+
+.sidebar {
+  padding: 0;
+}
+
+.sidebar-mini .nav-sidebar, .sidebar-mini .nav-sidebar .nav-link, .sidebar-mini .nav-sidebar > .nav-header {
+  overflow-x: hidden;
+}
+
+.nav-link {
+  color: #106EC7 !important;
+  transition: .15s;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: white !important;
+  background-color: #106EC7 !important;
+}
+
+.nav-sidebar > .nav-item.menu-open > .nav-link, .nav-sidebar > .nav-item > .nav-link {
+  background-color: white !important;
+  color: #106EC7 !important;
+  font-size: 18px !important;
+  padding: 12px 7px;
+  transition: .15s;
+}
+
+.nav-sidebar > .nav-item.menu-open > .nav-link:hover, .nav-sidebar > .nav-item > .nav-link:hover {
+  background-color: #D9EBFC !important;
+}
+
+.nav-sidebar > .nav-item > .nav-treeview {
+  background-color: #F3F3F3 !important;
+}
+
+.nav-sidebar > .nav-item .nav-icon {
+  width: 18px;
+}
+
+.brand-link {
+  text-align: center;
+}
+
+.content-wrapper {
+  background-color: #FAFAFA;
+  padding-bottom: 1rem;
 }
 
 .header {
@@ -13952,14 +13996,36 @@ a:hover {
   text-align: center;
 }
 
+.content-header .breadcrumb {
+  margin: 10px 0 0;
+}
+
+.breadcrumb-item.active {
+  color: #5f5f5e;
+}
+
+.header-usuario {
+  margin-right: 10px;
+}
+
+.header-usuario__titulo {
+  margin-right: 10px;
+}
+
 span {
   color: #202020;
 }
 
 .balao-dialogo {
   background-color: #0A8070;
-  font-size: 24px;
+  font-size: 20px;
   padding: 20px 20px 3px;
+}
+
+@media (min-width: 992px) {
+  .balao-dialogo {
+    font-size: 24px;
+  }
 }
 
 .balao-dialogo p {
