@@ -25,11 +25,18 @@
         <li class="nav-item">
           <a class="nav-link" data-widget="pushmenu" href="#" role="button">
             <i class="fas fa-bars"></i>
+            <span class="sr-only">Abrir ou fechar o menu</span>
           </a>
         </li>
       </ul>
 
-      <div class="ml-auto">Paciente:<i class="fas fa-user-circle icone-paciente"></i>Maria Luíza</div>
+      <div class="ml-auto">
+        <div class="header-usuario">
+          <span class="header-usuario__titulo">Paciente:</span>
+          <i class="fas fa-user-circle icone-paciente"></i>
+          Maria Luíza
+        </div>
+      </div>
     </nav>
     <!-- /.navbar -->
 
@@ -46,21 +53,13 @@
         <!-- Sidebar Menu -->
         <nav class="mt-2">
           <!-- Primeira ul -->
-          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" data-accordion="false">
             <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
             <!-- Meu painel -->
             <li class="nav-header">Menu</li>
-            <li class="nav-item">
-              <a href="https://adminlte.io/docs/3.0" class="nav-link">
-                <i class="nav-icon fas fa-file"></i>
-                <p>
-                  Meu painel
-                </p>
-              </a>
-            </li>
 
             <!-- Consultas -->
-            <li class="nav-item has-treeview">
+            <li class="nav-item has-treeview menu-open">
               <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-circle"></i>
                 <p>
@@ -73,15 +72,7 @@
                   <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>
-                      Iniciar consulta
-                    </p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Histórico de consultas
+                      Iniciar Consulta
                     </p>
                   </a>
                 </li>
@@ -120,6 +111,16 @@
                 <i class="nav-icon fas fa-file"></i>
                 <p>
                   Termo de consentimento
+                </p>
+              </a>
+            </li>
+
+            <!-- botão sair -->
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-sign-out-alt"></i>
+                <p>
+                  Sair
                 </p>
               </a>
             </li>
