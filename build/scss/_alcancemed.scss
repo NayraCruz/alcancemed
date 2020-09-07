@@ -47,7 +47,20 @@ span {
 }
 
 .btn1,
-.btn2 {
+.btn2,
+.btn3,
+.btn4 {
+    border-radius: 4px;
+	width: 100%;
+	max-width: 480px;
+	height: 50px;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.btn5,
+.btn6 {
     border-radius: 4px;
 	width: 100%;
 	max-width: 480px;
@@ -88,4 +101,13 @@ span {
 	right: 500px;
 	max-width: 500px;
 
+}
+
+legend {
+	font-family: Rubik;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 135%;
+	color: #0A8070;
 }
