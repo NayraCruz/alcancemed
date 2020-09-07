@@ -13996,8 +13996,27 @@ a:hover {
   text-align: center;
 }
 
+.content-header {
+  padding: 25px .5rem 15px;
+}
+
 .content-header .breadcrumb {
+  display: none;
   margin: 10px 0 0;
+}
+
+@media (min-width: 992px) {
+  .content-header .breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 576px) {
+  .content-wrapper > .content, .content-header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .breadcrumb-item.active {
@@ -14016,6 +14035,18 @@ span {
   color: #202020;
 }
 
+.titulo-pagina {
+  color: #0A8070;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+@media (min-width: 992px) {
+  .titulo-pagina {
+    font-size: 32px;
+  }
+}
+
 .atendente-virtual {
   position: relative;
 }
@@ -14023,6 +14054,18 @@ span {
 @media (min-width: 992px) {
   .atendente-virtual {
     padding-top: 185px;
+  }
+}
+
+.atendente-virtual__img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .atendente-virtual__img {
+    display: inline;
   }
 }
 
@@ -14035,14 +14078,21 @@ span {
 
 @media (min-width: 992px) {
   .balao-dialogo {
-    min-height: 197px;
-    font-size: 24px;
-    left: -256px;
-    top: 0;
+    min-height: 180px;
     width: 644px;
+    left: -298px;
+    top: -30px;
   }
   .balao-dialogo.arrow_box {
     position: absolute;
+  }
+}
+
+@media (min-width: 1200px) {
+  .balao-dialogo {
+    font-size: 24px;
+    left: -256px;
+    top: 0;
   }
 }
 
@@ -14091,10 +14141,18 @@ span {
 
 .cabecalho-curadoria {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 24px;
   color: #202020;
   left: 200px;
-  margin: 15px 0 25px;
+  line-height: 1.35;
+  margin: 15px auto 25px;
+  max-width: 561px;
+}
+
+@media (min-width: 1200px) {
+  .cabecalho-curadoria {
+    font-size: 32px;
+  }
 }
 
 .btn1,
@@ -14141,7 +14199,15 @@ span {
 }
 
 .btn-global {
-  margin: 20px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 20px auto;
+  min-height: 64px;
+  max-width: 561px;
 }
 
 .icone-curadoria {
