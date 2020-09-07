@@ -216,6 +216,13 @@ span {
 	margin-left: -31px;
 }
 
+.balao-dialogo--menor {
+	@media (min-width: 992px) {
+		left: 0;
+		max-width: 300px;
+	}
+}
+
 .cabecalho-curadoria {
 	font-weight: bold;
 	font-size: 24px;
@@ -324,12 +331,10 @@ legend {
 }
 @media (min-width: 576px) {
     .l-grid-items {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media (min-width: 768px) {
-    .l-grid-items {
-        grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+		max-width: 360px;
+		margin-left: auto;
+		margin-right: auto;
     }
 }
  
@@ -343,13 +348,14 @@ legend {
     cursor: pointer;
     display: flex;
     flex-wrap: wrap;
-    height: 184px;
+    height: 160px;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
+	margin-bottom: 2.5rem;
     padding: 32px;
     transition: .15s;
-    width: 192px;
+    width: 160px;
 }
 .collect-item:hover, .collect-item:focus, .collect-item.-focused {
     background-color: darken(#106EC7, 5%);
@@ -396,10 +402,12 @@ legend {
 .collect-item__label {
 	color: #0A4780;
 	display: block;
-    flex: 1;
+    flex: 1 0 100%;
     text-align: center;
 }
 
 .icone-checkbox {
 	display: block;
+	flex: 1 0 100%;
+	font-size: 64px;
 }
