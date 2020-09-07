@@ -14381,10 +14381,50 @@ legend {
 .img-video {
   overflow-y: hidden;
   max-height: 512px;
+  position: relative;
 }
 
 .img-video img {
   width: -webkit-fill-available;
+}
+
+.img-mini-video {
+  display: none;
+  right: 15px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  top: 10px;
+}
+
+@media (min-width: 992px) {
+  .img-mini-video {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img-mini-video {
+    width: 200px;
+    height: 200px;
+    top: 30px;
+  }
+}
+
+.img-mini-video img {
+  width: 100%;
+  height: auto;
+}
+
+.img-mini-video--2 {
+  top: 120px;
+}
+
+@media (min-width: 1200px) {
+  .img-mini-video--2 {
+    top: 260px;
+  }
 }
 
 .form-group.has-icon {

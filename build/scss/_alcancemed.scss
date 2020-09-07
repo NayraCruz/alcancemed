@@ -449,8 +449,42 @@ legend {
 .img-video {
 	overflow-y: hidden;
 	max-height: 512px;
+	position: relative;
 	
 	img {
 		width: -webkit-fill-available;
+	}
+}
+
+.img-mini-video {
+	display: none;
+	right: 15px;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	top: 10px;
+
+	@media (min-width: 992px) {
+		display: block;
+	}
+
+	@media (min-width: 1200px) {
+		width: 200px;
+		height: 200px;
+		top: 30px;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.img-mini-video--2 {
+	top: 120px;
+
+	@media (min-width: 1200px) {
+		top: 260px;
 	}
 }
