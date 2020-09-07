@@ -163,69 +163,78 @@
           <!-- CARD INICIAR CONSULTA -->
           <div class="card">
             <div class="card-body">
+              <!-- CARD CURADORIA 2-->
+              <!-- BALÃO DE DIÁLOGO -->
               <div>
-                <!-- BALÃO DE DIÁLOGO -->
                 <div class="balao-dialogo">
-                  <p>Olá, Maria Luíza!</p>
-                  <p>Eu sou a Lory. Vou te ajudar a escolher a melhor opção de atendimento para você.</p>
-                  <p>Responda as perguntas a seguir.</p>
+                  <p>
+                    Preciso conhecer o seu perfil para organizar a sala da sua consulta.
+                  </p>
+
                 </div>
 
-                <img class="img-fluid" src="/dist/img/undraw_podcast_q6p7.svg"
+                <img src="/dist/img/undraw_podcast_q6p7.svg"
                   alt="Ilustração da atendente Lory, que é uma mulher negra de cabelos lisos, está usando vestido verde e está sentada em frente ao notebook">
+
+                <h2 class="cabecalho-curadoria">
+                  Quais formas você utiliza para
+                  <br>
+                  se comunicar?
+                </h2>
+                <form action="">
+                  <div>
+                    <input type="checkbox" name="" id="">
+                    <img src="" alt="">
+                    <label for="">Texto</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" name="" id="">
+                    <img src="" alt="">
+                    <label for="">Voz</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" name="" id="">
+                    <img src="" alt="">
+                    <label for="">Libras</label>
+                  </div>
+                </form>
+                <p>Você seleciou: Libras</p>
+                <a href="curadoria-passo3.html" class="btn2">Continuar</a>
               </div>
-
-              <h2 class="cabecalho-curadoria">Quem irá se comunicar com o médico?</h2>
-              <a href="curadoria-passo1.html" class="btn btn-block btn-primary btn1"><i
-                  class="fas fa-user icone-curadoria"></i>
-                O próprio paciente</a>
-              <a href="#" class="btn btn-block btn-outline-primary btn2"><i
-                  class="fas fa-user-friends icone-curadoria"></i>
-                Um porta-voz</a>
+              <!-- /.CARD CURADORIA 2 -->
+              <aside class="control-sidebar control-sidebar-dark">
+                <!-- PARTE PARA COPIAR E COLAR NAS OUTRAS PÁGINAS -->
+                <!-- Control sidebar content goes here -->
+                <div class="p-3">
+                  <h5>Title</h5>
+                  <p>Sidebar content</p>
+                </div>
+              </aside>
+              <!-- /.control-sidebar -->
             </div>
-          </div>
-          <!-- /.CARD INICIAR CONSULTA -->
+            <!-- ./wrapper -->
 
-          <!-- /.container-fluid -->
-        </div>
-        <!-- /.content -->
-      </div>
-      <!-- /.content-wrapper -->
+            <!-- REQUIRED SCRIPTS -->
 
-      <!-- Control Sidebar -->
-      <aside class="control-sidebar control-sidebar-dark">
-        <!-- PARTE PARA COPIAR E COLAR NAS OUTRAS PÁGINAS -->
-        <!-- Control sidebar content goes here -->
-        <div class="p-3">
-          <h5>Title</h5>
-          <p>Sidebar content</p>
-        </div>
-      </aside>
-      <!-- /.control-sidebar -->
-    </div>
-    <!-- ./wrapper -->
-
-    <!-- REQUIRED SCRIPTS -->
-
-    <!-- jQuery -->
-    <script src="plugins/jquery/jquery.min.js"></script>
-    <!-- Bootstrap 4 -->
-    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- AdminLTE App -->
-    <script src="dist/js/adminlte.min.js"></script>
+            <!-- jQuery -->
+            <script src="plugins/jquery/jquery.min.js"></script>
+            <!-- Bootstrap 4 -->
+            <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <!-- AdminLTE App -->
+            <script src="dist/js/adminlte.min.js"></script>
 
 
-    <!-- vLibras -->
-    <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
-      </div>
-    </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
+            <!-- vLibras -->
+            <div vw class="enabled">
+              <div vw-access-button class="active"></div>
+              <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+              </div>
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+              new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
 </body>
 
 </html>
