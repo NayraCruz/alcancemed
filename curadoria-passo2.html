@@ -183,24 +183,37 @@
                   se comunicar?
                 </h2>
                 <form action="">
-                  <div>
-                    <input type="checkbox" name="" id="">
-                    <img src="" alt="">
-                    <label for="">Texto</label>
-                  </div>
-                  <div>
-                    <input type="checkbox" name="" id="">
-                    <img src="" alt="">
-                    <label for="">Voz</label>
-                  </div>
-                  <div>
-                    <input type="checkbox" name="" id="">
-                    <img src="" alt="">
-                    <label for="">Libras</label>
-                  </div>
+                  <ul class="l-grid-items" aria-labelledby="intruction-to-list">
+                    <li class="l-grid-items__item">
+                      <div class="collect-item" data-id="Texto">
+                        <input type="checkbox" class="sr-only collect-item__checkbox" id="texto" name="collect-items" value="Texto">
+                        <i class="fas fa-comments" aria-hidden="true"></i>
+                        <label for="texto" class="collect-item__label">Texto</label>
+                      </div>
+                    </li>
+                    <li class="l-grid-items__item">
+                      <div class="collect-item" data-id="Voz">
+                        <input type="checkbox" class="sr-only collect-item__checkbox" id="voz" name="collect-items" value="Voz">
+                        <i class="fas fa-microphone-alt" aria-hidden="true"></i>
+                        <label for="voz" class="collect-item__label">Voz</label>
+                      </div>
+                    </li>
+                    <li class="l-grid-items__item">
+                      <div class="collect-item" data-id="Libras">
+                        <input type="checkbox" class="sr-only collect-item__checkbox" id="fisica" name="collect-items" value="Libras">
+                        <i class="fas fa-sign-language" aria-hidden="true"></i>
+                        <label for="libras" class="collect-item__label">Libras</label>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <!-- <p>Você selecionou: Auditiva</p>-->
+                  <a href="curadoria-passo3.html" class="btn btn-block btn-primary btn1 btn-global btn-global--icone-direita">
+                    Continuar
+
+                    <i class="fas fa-angle-double-right icone-curadoria"></i>
+                  </a>
                 </form>
-                <p>Você seleciou: Libras</p>
-                <a href="curadoria-passo3.html" class="btn2">Continuar</a>
               </div>
               <!-- /.CARD CURADORIA 2 -->
               <aside class="control-sidebar control-sidebar-dark">
