@@ -48,6 +48,7 @@ Comandos a inserir no terminal:
 
 - `npm run dev`
 - `npm run production`
+
 Aguarde a finalização dos scripts no terminal.
 
 ### Visualizar - 2ª forma:
