@@ -56,7 +56,7 @@ Comandos a inserir no terminal:
 ## :computer: Interface
 Demonstração do resultado final da aplicação:
 
-<img src="dist/img/demonstracao.png" alt="Demonstração da navegação na plataforma AlcanceMED">
+<img src="dist/img/demonstracao.gif" alt="Demonstração da navegação na plataforma AlcanceMED">
 
 [Confira a nossa UI navegável no Figma](https://www.figma.com/proto/gj4IhUyihLbqCSf8FRN0HL/Alcance-Med-MHW?node-id=5%3A2&viewport=186%2C348%2C0.36695781350135803&scaling=min-zoom)
 
