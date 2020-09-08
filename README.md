@@ -64,7 +64,7 @@ Demonstração do resultado final da aplicação:
 
 A equipe idealizadora desse projeto é formada pelas integrantes:
 
-- [Dayanne Viana - Development]
+- Dayanne Viana - Development
 - [Nayra Cruz - UX Design](https://www.linkedin.com/in/nayra-cruz/)
 - [Vanessa Sousa - Marketing](https://www.linkedin.com/in/vanessa-sousa-9a195386)
 - [Quézia Santana - Business](https://www.linkedin.com/in/queziasantana/)
