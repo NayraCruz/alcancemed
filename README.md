@@ -43,8 +43,12 @@ Indicamos as seguintes formas de baixar e visualizar as páginas do projeto:
 1. `npm install`
 
 ### Visualizar - 1ª forma:
+
 Comandos a inserir no terminal:
+
 - `npm run dev`
+
+Aguarde a finalização dos scripts no terminal.
 
 ### Visualizar - 2ª forma:
 - Utilizando a extensão Live Share do VS Code:
