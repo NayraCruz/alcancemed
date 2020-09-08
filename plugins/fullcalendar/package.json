@@ -1,33 +1,28 @@
 {
-  "_args": [
-    [
-      "@fullcalendar/core@4.4.2",
-      "C:\\alcancemed"
-    ]
-  ],
-  "_from": "@fullcalendar/core@4.4.2",
+  "_from": "@fullcalendar/core@^4.4.0",
   "_id": "@fullcalendar/core@4.4.2",
   "_inBundle": false,
   "_integrity": "sha512-vq7KQGuAJ1ieFG5tUqwxwUwmXYtblFOTjHaLAVHo6iEPB52mS7DS45VJfkhaQmX4+5/+BHRpg82G1qkuAINwtg==",
   "_location": "/@fullcalendar/core",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "@fullcalendar/core@4.4.2",
+    "raw": "@fullcalendar/core@^4.4.0",
     "name": "@fullcalendar/core",
     "escapedName": "@fullcalendar%2fcore",
     "scope": "@fullcalendar",
-    "rawSpec": "4.4.2",
+    "rawSpec": "^4.4.0",
     "saveSpec": null,
-    "fetchSpec": "4.4.2"
+    "fetchSpec": "^4.4.0"
   },
   "_requiredBy": [
-    "/"
+    "/admin-lte"
   ],
   "_resolved": "https://registry.npmjs.org/@fullcalendar/core/-/core-4.4.2.tgz",
-  "_spec": "4.4.2",
-  "_where": "C:\\alcancemed",
+  "_shasum": "864abe98cce4497a163c01a8fc30389f15d3d4e1",
+  "_spec": "@fullcalendar/core@^4.4.0",
+  "_where": "D:\\Users\\Nayra\\Documents\\Hackathons\\Mega Hack Women\\projeto\\alcancemed\\node_modules\\admin-lte",
   "author": {
     "name": "Adam Shaw",
     "email": "arshaw@arshaw.com",
@@ -36,7 +31,9 @@
   "bugs": {
     "url": "https://fullcalendar.io/reporting-bugs"
   },
+  "bundleDependencies": false,
   "copyright": "2019 Adam Shaw",
+  "deprecated": false,
   "description": "Provides core functionality, including the Calendar class",
   "docs": "https://fullcalendar.io/docs/initialize-es6",
   "homepage": "https://fullcalendar.io/",
