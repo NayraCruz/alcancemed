@@ -47,7 +47,6 @@ Indicamos as seguintes formas de baixar e visualizar as páginas do projeto:
 Comandos a inserir no terminal:
 
 - `npm run dev`
-- `npm run production`
 
 Aguarde a finalização dos scripts no terminal.
 
