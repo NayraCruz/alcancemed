@@ -8,6 +8,7 @@
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Como baixar o projeto](#arrow_double_down-como-baixar-o-projeto)
 - [Interface](#computer-interface)
+- [Créditos](#-creditos)
 
 ## :information_source: Sobre
 
@@ -50,6 +51,11 @@ Comandos a inserir no terminal:
 
 ### Visualizar - 3ª forma:
 - Clicando no arquivo index.html na raiz do projeto.
+
+## :computer: Interface
+Demonstração do resultado final da aplicação:
+
+[Confira a nossa UI navegável no Figma](https://www.figma.com/proto/gj4IhUyihLbqCSf8FRN0HL/Alcance-Med-MHW?node-id=5%3A2&viewport=186%2C348%2C0.36695781350135803&scaling=min-zoom)
 
 ## Créditos
 - [AdminLTE](https://github.com/ColorlibHQ/AdminLTE)
