@@ -36,7 +36,7 @@ Nossa interface foi projetada utilizando as regras da WCAG, como contraste sufic
 
 ## :arrow_double_down: Como baixar o projeto
 
-Há 3 formas de baixar e visualizar as páginas do projeto:
+Indicamos as seguintes formas de baixar e visualizar as páginas do projeto:
 
 ### Baixar:
 1. `git clone https://github.com/NayraCruz/alcancemed.git`
